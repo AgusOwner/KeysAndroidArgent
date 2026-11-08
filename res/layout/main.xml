@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear34" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/v1" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="0.0dp" android:text="TextView" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/v2" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="0.0dp" android:text="TextView" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/textview2" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="TextView" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff0000" android:id="@id/textview17" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="© COPYRIGHT MERMA HACK" />
+            <TextView android:textSize="12.0sp" android:textColor="#000000" android:id="@id/textview1" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="1.0dp" android:text="MERMA HACK" />
+            <LinearLayout android:orientation="vertical" android:id="@id/linear47" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="0.0dp">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linear4" android:background="#000000" android:padding="4.0dp" android:layout_width="220.0dp" android:layout_height="34.0dp">
+                    <ImageView android:id="@id/imageview1" android:background="@drawable/ic_person_black" android:layout_width="25.0dp" android:layout_height="25.0dp" android:layout_marginLeft="5.0dp" android:src="@drawable/icon_person_ro" android:scaleType="fitCenter" />
+                    <EditText android:textSize="12.0sp" android:textColor="#ffffff" android:textColorHint="#424242" android:id="@id/user" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="30.0dp" android:hint="Username" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linear5" android:background="#000000" android:padding="4.0dp" android:layout_width="220.0dp" android:layout_height="34.0dp" android:layout_marginTop="8.0dp">
+                    <ImageView android:id="@id/imageview2" android:background="@drawable/ic_lock_black" android:layout_width="25.0dp" android:layout_height="25.0dp" android:layout_marginLeft="5.0dp" android:src="@drawable/icon_lock_r" android:scaleType="fitCenter" />
+                    <EditText android:textSize="12.0sp" android:textColor="#ffffff" android:textColorHint="#424242" android:id="@id/pass" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="30.0dp" android:hint="Password" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear2" android:background="#0f0f0f" android:layout_width="260.0dp" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linear43" android:layout_width="match_parent" android:layout_height="15.0dp">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/linear44" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="center" android:id="@id/imageview4" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/fechar" android:scaleType="fitCenter" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear45" android:padding="8.0dp" android:layout_width="5.0dp" android:layout_height="match_parent" />
+                    <ImageView android:layout_gravity="center" android:id="@id/imageview5" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_close_rou" android:scaleType="fitCenter" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear46" android:padding="8.0dp" android:layout_width="5.0dp" android:layout_height="match_parent" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear3" android:layout_width="match_parent" android:layout_height="100.0dp">
+                    <ImageView android:id="@id/imageview3" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/merma" android:scaleType="fitCenter" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/linear6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:textSize="16.0sp" android:textColor="#fafafa" android:gravity="center" android:layout_gravity="center" android:id="@id/button1" android:background="#76ff03" android:layout_width="220.0dp" android:layout_height="35.0dp" android:text="LOGIN" />
+                </LinearLayout>
+                <Switch android:textSize="12.0sp" android:textColor="#000000" android:id="@id/switch11" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="Switch" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#424242" android:layout_gravity="center" android:id="@id/textview19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@Developer Merma Hex" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

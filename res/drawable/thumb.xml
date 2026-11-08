@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <size android:height="20.0dp" android:width="20.0dp" />
+            <solid android:color="#4b4b4b" />
+            <stroke android:width="3.0dp" android:color="#252527" />
+        </shape>
+    </item> //Copyright - EMOAKKI(SK GOYAL) 
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <size android:height="20.0dp" android:width="20.0dp" />
+            <solid android:color="#4b4b4b" />
+            <stroke android:width="3.0dp" android:color="#252527" />
+        </shape>
+    </item>
+</selector>
