@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="FOX.RANK" platformBuildVersionCode="33" platformBuildVersionName="13">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="ARGENT" platformBuildVersionCode="33" platformBuildVersionName="13">
     <queries>
         <package android:name="moe.shizuku.privileged.api"/>
     </queries>
@@ -33,18 +33,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".DebugActivity" android:screenOrientation="portrait"/>
-        <provider android:authorities="FOX.RANK.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+        <provider android:authorities="Argent.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
         </provider>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <provider android:authorities="FOX.RANK.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="ARGENT.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
             <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
             <meta-data android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
         </service>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-        <provider android:authorities="FOX.RANK.shizuku" android:enabled="true" android:exported="true" android:multiprocess="false" android:name="rikka.shizuku.ShizukuProvider" android:permission="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <provider android:authorities="ARGENT.shizuku" android:enabled="true" android:exported="true" android:multiprocess="false" android:name="rikka.shizuku.ShizukuProvider" android:permission="android.permission.INTERACT_ACROSS_USERS_FULL"/>
         <meta-data android:name="moe.shizuku.client.V3_SUPPORT" android:value="true"/>
     </application>
 </manifest>
