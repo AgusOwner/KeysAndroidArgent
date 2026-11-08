@@ -1371,6 +1371,7 @@ function goTo(tab){
 }
 
 /* ============ FIREBASE ============ */
+const ARGENT_LOGO_URL="https://i.imgur.com/oZwzvL0.png";
 async function fbGet(p){ try{ const r=await fetch(DB_URL+p+".json"); return await r.json(); } catch(e){ return null; } }
 async function fbPut(p,d){ try{ const r=await fetch(DB_URL+p+".json",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify(d)}); return await r.json(); } catch(e){ return null; } }
 async function fbPatch(p,d){ try{ const r=await fetch(DB_URL+p+".json",{method:"PATCH",headers:{"Content-Type":"application/json"},body:JSON.stringify(d)}); return await r.json(); } catch(e){ return null; } }
@@ -1405,7 +1406,7 @@ async function loadAll(){
     sv("c_borderW", c.borderWidth || 2);
 
     st("m_enabled", mt.enabled === true);
-    sv("m_logoUrl", mt.logoUrl || "");
+    sv("m_logoUrl", ARGENT_LOGO_URL);
     sv("m_titleTop", mt.titleTop || "EN");
     sv("m_titleMain", mt.titleMain || "MANTENIMIENTO");
     sv("m_description", mt.description || "Estamos actualizando nuestros sistemas.\nPor favor intenta más tarde.");
@@ -1413,7 +1414,7 @@ async function loadAll(){
 
     sv("u_latest", up.latestVersion || "1.0.0");
     sv("u_min", up.minVersion || "1.0.0");
-    sv("u_logoUrl", up.logoUrl || "");
+    sv("u_logoUrl", ARGENT_LOGO_URL);
     sv("u_titleTop", up.titleTop || "NUEVA");
     sv("u_titleMain", up.titleMain || "ACTUALIZACIÓN");
     sv("u_description", up.description || up.changelog || "Corrección de errores y mejoras");
@@ -1424,7 +1425,7 @@ async function loadAll(){
     st("sw_gkEnabled", gk.enabled !== false);
     sv("gk_label", gk.label || "OBTENER CLAVE");
     sv("gk_url", gk.url || "");
-    sv("gk_logoUrl", gk.logoUrl || "");
+    sv("gk_logoUrl", ARGENT_LOGO_URL);
 
     st("a_dlg_entrance", an.dialog?.entrance !== false);
     st("a_stagger", an.stagger?.enabled !== false);
